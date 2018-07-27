@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity"
+    android:background="@color/cream">
+
+
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:text="SCAN"
+        android:layout_marginRight="8dp"
+        android:layout_marginLeft="148dp"
+        android:background="@drawable/btn_shape_capsule"
+        android:textColor="@drawable/btn_txt_selector"
+        android:id="@+id/button"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="87dp" />
+
+    <TextView android:layout_height="33dp"
+        android:layout_width="wrap_content" app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:text="TextView"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="160dp"
+
+        android:layout_marginBottom="76dp" android:id="@+id/textView" app:layout_constraintVertical_bias="1.0" app:layout_constraintTop_toTopOf="parent" app:layout_constraintBottom_toTopOf="@+id/button" android:textColor="@color/zxing_contents_text" android:layout_marginTop="8dp"
+        tools:layout_editor_absoluteX="163dp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView"
+        android:layout_below="@+id/textView"
+        android:fontFamily="serif"
+        android:gravity="center"
+        android:includeFontPadding="false"
+        android:text="Scan the barcode of the apparel to get variants"
+        android:textColor="#000"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="69dp" />
+
+
+</RelativeLayout>
+
