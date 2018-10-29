@@ -73,7 +73,6 @@ public class VariantsActivity extends AppCompatActivity {
                     if(k.equals("name")){
                         nameSelected = (String)childDataSnapshot.getValue();
                          textView.setText(nameSelected);
-                        //list2 = va.split(",");
                     }
                     Log.v("ValueIn",""+ childDataSnapshot.getValue());   //gives the value for given keyname
                 }
